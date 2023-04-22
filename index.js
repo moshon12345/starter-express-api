@@ -7,6 +7,10 @@ app.all('/', (req, res) => {
     res.send('Yo!')
 })
 
+const blugi = {
+    "name": "Blugi"
+}
+
 app.get('/TESTING2', sendBackData2);
 
 function sendBackData2(req, res) {
